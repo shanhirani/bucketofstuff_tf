@@ -20,6 +20,5 @@ variable "vpc_classiclink" {
   default = true
 }
 variable "vpc_instance_tenancy" {
-  type    = bool
-  default = true
+  default = "default"
 }
